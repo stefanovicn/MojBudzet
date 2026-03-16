@@ -1,0 +1,43 @@
+/* LOGIN/REGISTER */
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #eaeaea !important;
+    padding-top: 50px;
+}
+
+.auth-container{
+    width: 350px;
+    background: #fff;
+    padding: 30px 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 22px rgba(0,0,0,0.15);
+    text-align: center;
+    
+}
+
+.auth-container .naslov{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.auth-container .naslov img{
+    width: 160px;
+    height: 160px;
+}
+
+form input, form select {
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 3px;
+    border: 1px solid #cccccc;
+}
+
+.alert{
+    width: 350px;
+    text-align: center;
+}
